@@ -71,6 +71,14 @@ p.charbutton {
   color: #fff;
 }
 
+table, th, td {
+  margin: 20px 40%;
+  border: 1px solid white;
+  color: white;
+  font-family: smashFont;
+  text-align: centeR;
+}
+
 @font-face {
   font-family: smashFont;
   src: url(font/A-OTF-FolkPro-Bold.otf);
