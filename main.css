@@ -1,12 +1,14 @@
+html {
+  font-size: 20px;
+}
+
 body {
   background-color: #333;
 }
 
 #header {
-  font-family: Passion One, sans-serif;
-  font-size: 150%;
-  color: #222;
-  background-color: #fff;
+  width: 10%;
+  margin: 0 auto;
 }
 
 h1 {
@@ -14,7 +16,7 @@ h1 {
 }
 
 main {
-  width: 75%;
+  width: 75vw;
   height: 100%;
   background-color: #222;
   margin: 0 auto;
@@ -59,7 +61,7 @@ p.charbutton {
   margin: 0;
   font-family: smashFont, sans-serif;
   color: #fff;
-  font-size: 90%;
+  font-size: 0.5rem;
 }
 
 table {
@@ -69,6 +71,7 @@ table {
   border: 1px solid darkred;
   color: white;
   font-family: smashFont, sans-serif;
+  font-size: 80%;
   text-align: center;
 }
 
