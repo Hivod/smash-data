@@ -12,51 +12,43 @@
   <div id="header">
     <h1>Smash data</h1>
   </div>
-  <div id="navbar">
-  </div>
+  
   <main>
     <div id="characters">
       <a href="#">
-        <button class="charbutton">
+        <button class="charbutton" id="buttonfox" onclick="charbutton(this.id)">
           <img src="chars/fox.png">
           <p class="charbutton">FOX</p>
         </button>
       </a>
       <a href="#">
-        <button class="charbutton">
+        <button class="charbutton" id="buttonfalco" onclick="charbutton(this.id)">
           <img src="chars/falco.png">
           <p class="charbutton">FALCO</p>
         </button>
       </a>
       <a href="#">
-        <button class="charbutton">
+        <button class="charbutton" id="buttoncfalcon" onclick="charbutton(this.id)">
           <img src="chars/cfalcon.png">
           <p class="charbutton">C. FALCON</p>
         </button>
       </a>
       <a href="#">
-        <button class="charbutton">
+        <button class="charbutton" id="buttonmarth" onclick="charbutton(this.id)">
           <img src="chars/marth.png">
           <p class="charbutton">MARTH</p>
         </button>
       </a>
       <a href="#">
-        <button class="charbutton">
+        <button class="charbutton" id="buttonbowser" onclick="charbutton(this.id)">
           <img src="chars/bowser.png">
           <p class="charbutton">BOWSER</p>
         </button>
       </a>
     </div>
+    
     <div id="content">
-      <table>
-        <tr>
-          <th>MOVE</th>
-          <th>FRAMES</th>
-        </tr>
-        <tr>
-          <td>BAir</td>
-          <td>5</td>
-        </tr>
+      <table id="datatable">
       </table>
     </div>
   </main>
