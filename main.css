@@ -12,14 +12,14 @@ h1 {
 }
 
 main {
-  width: 75vw;
+  width: 60vw;
   height: 100%;
   background-color: #222;
   margin: 0 auto;
 }
 
 #characters {
-  width: 
+  margin: 0 289px;
 }
 
 img {
@@ -33,7 +33,7 @@ a {
 }
 
 button.charbutton {
-  width: 10%;
+  width: 100px;
   padding: 0;
   cursor: pointer;
   background-color: #28172e;
@@ -41,6 +41,7 @@ button.charbutton {
   border-radius: 3%;
   margin: 5% 1%;
   transition-duration: 0.08s;
+  overflow: hidden;
 }
 
 button.charbutton:hover {
@@ -60,7 +61,8 @@ p.charbutton {
 }
 
 #charName {
-  margin: 0 auto;
+  text-align: center;
+  margin: 0;
   text-transform: uppercase;
   color: white;
   font-family: smashFont, sans-serif;
@@ -68,10 +70,9 @@ p.charbutton {
 }
 
 table {
-  width: 100%;
-  background-color: darkred;
-  margin: 20px auto;
-  border: 1px solid darkred;
+  background-color: #a81111;
+  margin: 0 auto;
+  border: 1px solid #b21b1b;
   color: white;
   font-family: smashFont, sans-serif;
   font-size: 100%;
