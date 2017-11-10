@@ -1,0 +1,107 @@
+body {
+  background-color: #111;
+}
+
+#header {
+  position: absolute;
+  width: 200px;
+  margin: 0 auto;
+  left: 860px;
+}
+
+h1 {
+  text-align: center;
+}
+
+main {
+  position: absolute;
+  left: 480px;
+  top: 160px;
+  width: 960px;
+  height: 1200px;
+  background-color: #222;
+  margin: 0 auto;
+}
+
+#characters {
+  position: absolute;
+  width: 814x;
+  left: 73px;
+}
+
+img {
+  width: 100%;
+  -webkit-user-drag: none;
+}
+
+a {
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+}
+
+button.charbutton {
+  width: 140px;
+  padding: 0;
+  cursor: pointer;
+  background-color: #28172e;
+  border: 4px solid purple;
+  border-radius: 4px;
+  margin: 30px 10px;
+  transition-duration: 0.08s;
+}
+
+button.charbutton:hover {
+  transform: scale(1.05);
+}
+
+button.charbutton:active {
+  transform: scale(1.025);
+}
+
+p.charbutton {
+  background-color: black;
+  margin: 0;
+  font-family: smashFont, sans-serif;
+  color: #fff;
+  font-size: 14px;
+}
+
+#content {
+  position: absolute;
+  width: 600px;
+  top: 280px;
+  left: 180px;
+}
+
+#charName {
+  text-align: center;
+  margin: 0 auto;
+  text-transform: uppercase;
+  color: white;
+  font-family: smashFont, sans-serif;
+  font-size: 24px;
+}
+
+table {
+  width: 100%;
+  background-color: darkred;
+  margin: 20px auto;
+  border: 1px solid darkred;
+  color: white;
+  font-family: smashFont, sans-serif;
+  font-size: 100%;
+  text-align: center;
+}
+
+tr {
+  background-color: #222;
+}
+
+th, td {
+  padding: 2px 20px;
+}
+
+@font-face {
+  font-family: smashFont;
+  src: url(font/A-OTF-FolkPro-Bold.otf);
+}
